@@ -49,21 +49,40 @@
 
 # # Review
 # create variables for the following :
-# 1. age
-# 2. name
-# 3. song
-# 4. food
-# 5. number
+# 1. age #integer variable
+age= 28
+# 2. name #string variable that has quotation marks
+name = "Viviana"
+# 3. song string variable
+song = "imitadora"
+# 4. food string variable
+food = "Burger King"
+# 5. number integer variable
+number = 1906
 
 
 # #now include the variables you just made print in the following...
+#concatnation ------ + around your variables
+#IF YOU INCLUDE A DIFFERENT TYPE OF VARIABLE IN CONCATNATION IT WON'T WORK
+print ("Once upon a time, there was a" + str(age) + "an old coder named" + name + ".")
+print ("there was a number " + str(number) + "as well")
+#put the age in a new sentence 
+print ("back in the olden days of " + str(number) + "no phones existed")
+
+#put the age and number in a new thing
+date_of_birth =2021
+number2= 123
+number3 = 123.456
+number4 = 123.33
+number5 = 4555
+print (f"the date of birth is {date_of_birth} and his social security number is {number2} , {number3} , {number4}, and {number5}")
 
 
 # Once upon a time, there was a [age] old coder named [name].
 
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print (f"{name} liked to hum to the song {song} while coding. It was so annoying that their teamates would throw {food} until {name} would stop singing")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
