@@ -243,16 +243,18 @@ number5 = 4555
 # #round one number
 #print (round (num1))
 
-name= input ("hi what's your name?")
-num1 = int (input ("enter a number") )
-num2= int (input ("enter another number")) 
-print (num1 - num2)
-print (num1 / num2)
-print ("the min of these 2 numbers is" , (num1,num2))
-print (abs(num1))
-print (floor (num1))
-print (ceil (num2))
-print (sqrt (num1))
+#name= input ("hi what's your name?")
+#num1 = int (input ("enter a number") )
+#num2= int (input ("enter another number")) 
+#num1 = int (input ("enter a number") )
+#num2= int (input ("enter another number")) 
+#print (num1 - num2)
+#print (num1 / num2)
+#print ("the min of these 2 numbers is" , (num1,num2))
+#print (abs(num1))
+#print (floor (num1))
+#print (ceil (num2))
+#print (sqrt (num1))
 
 
 
@@ -266,7 +268,15 @@ print (sqrt (num1))
 # print("Roses are {color}")
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
-# # On to codehs.com
+# # On to codehs.com 
+
+color = input ("What's your favorite color")
+plural_noun = input ("What's your favorite thing?")
+celebrity = input ("What's your favorite celebrity?")
+print(f"Roses are {color}")
+print(f"{plural_noun} are blue")
+print(f"I love {celebrity}")
+
 
 
 
