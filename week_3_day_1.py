@@ -48,12 +48,12 @@
 
 
 # # Review
-# create variables for the following :
+# create variable for the following :
 # 1. age #integer variable
 age= 28
 # 2. name #string variable that has quotation marks
 name = "Viviana"
-# 3. song string variable
+# 3. song string vavariable
 song = "imitadora"
 # 4. food string variable
 food = "Burger King"
@@ -67,7 +67,7 @@ number = 1906
 print ("Once upon a time, there was a" + str(age) + "an old coder named" + name + ".")
 print ("there was a number " + str(number) + "as well")
 #put the age in a new sentence 
-print ("back in the olden days of " + str(number) + "no phones existed")
+print ("back in the olden days of " + str(number + "no phones existed")
 
 #put the age and number in a new thing
 date_of_birth =2021
@@ -121,13 +121,14 @@ print (f"{name} liked to hum to the song {song} while coding. It was so annoying
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
 # list
+#key word in python, you can't use it for your own variable names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -143,15 +144,15 @@ print (f"{name} liked to hum to the song {song} while coding. It was so annoying
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 
-# first_name
-# lastName
+# first_name 
+# lastName 
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# one_variable
+# email_address
+# percentage
+# ice_cream
 
 
 
