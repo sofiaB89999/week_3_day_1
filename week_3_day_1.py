@@ -192,7 +192,7 @@ number5 = 4555
 #print ("round 3.9 is" ,round (3.9))
 # # absolute value
 #absolute value means the distance from 0
-#print ("the absolute value of -3 is " , absolute value (-3))
+#print ("the absolute value of -3 is " , abs(-3))
 # # order of operations aka PEMDAS
 # print ("2 + 10 * 10 +3 is ", 2 + 10 * 10 +3 )
 
@@ -225,23 +225,34 @@ number5 = 4555
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
-name= input ("what is your name?")
-print ("hello", name)
+#name= input ("what is your name?")
+#print ("hello", name)
 # # basic math calculator
 # #ask the user for 2 numbers
-num1 = int (input ("enter a number") )
-num2= int (input ("enter another number")) 
+#num1 = int (input ("enter a number") )
+#num2= int (input ("enter another number")) 
 # # print out a statement where you:
 # # add them together
-print (num1 + num2)
+#print (num1 + num2)
 # #multiply
-print (num1 * num2)
+#print (num1 * num2)
 # # find the max number
-print (min (num1, num2))
+#print (min (num1, num2))
 # # find the remainder of the numbers
-print (num1 % num2)
+#print (num1 % num2)
 # #round one number
-print (round (num1))
+#print (round (num1))
+
+name= input ("hi what's your name?")
+num1 = int (input ("enter a number") )
+num2= int (input ("enter another number")) 
+print (num1 - num2)
+print (num1 / num2)
+print ("the min of these 2 numbers is" , (num1,num2))
+print (abs(num1))
+print (floor (num1))
+print (ceil (num2))
+print (sqrt (num1))
 
 
 
